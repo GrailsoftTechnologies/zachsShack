@@ -8,15 +8,15 @@ class Home extends Component {
     return (
       <main className='wrapper'>
         <section className='section parallax bg1'>
-          <div className="lineStyle1">BRICK</div>
-          <div className="lineStyle2">AND</div>
-          <div className="lineStyle1">MOTOR</div>
-          <div className="lineStyle2">WOOD FIRED PIZZA</div>
+          <div className="lineStyle1">Zach's</div>
+          <div className="lineStyle2">Shack</div>
+          <div className="lineStyle1">MuthaFuckin</div>
+          <div className="lineStyle2">Hot Dawgs</div>
         </section>
         <section className='section static'>
           <div className="primeTime">
             <br/>
-            <p className="lineStyle2">Deliver unto us the Pizza</p>
+            <p className="lineStyle2">Order Your Dawgs for Takeout</p>
             <a href="https://www.amazon.com/restaurants/brick-and-motor-portland/d/B079J6MDKB?ref_=amzrst_b_B079J6MDKB_20" target="_blank" rel="noopener noreferrer"><img src={PrimeNow} alt='amazon restaurant delivery' id="primeLogo"></img></a>
           </div>
         </section>
