@@ -1,0 +1,69 @@
+b@font-face {
+    font-family: 'millionaire_demoregular';
+    src: url('font/millionaire-webfont.woff2') format('woff2'),
+         url('font/millionaire-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freshman';
+    src: url('font/Freshman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'New Athletic M54';
+    src: url('font/New Athletic M54.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'High-School';
+    src: url('font/High-School.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: 'millionaire_demoregular', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+}
+
+.lineStyle1 {
+  font-size: 12vh;
+  padding: 4vh;
+}
+.lineStyle2 {
+  font-size: 8vh;
+  padding: 2vh;
+}
+.lineStyle3 {
+  font-size: 6vh;
+  padding: 1vh;
+  padding-top: 5vh;
+}
+.lineStyle4 {
+  font-size: 2vh;
+}
+.lineStyle5 {
+  font-size: 6vh;
+  padding: 1vh;
+  padding-top: 5vh;
+  /* font-family: 'New Athletic M54', Arial, sans-serif; */
+}
+.lineStyle6 {
+  font-size: 10vh;
+  padding: 2vh;
+  /* font-family: 'New Athletic M54', Arial, sans-serif; */
+}
+.lineStyle7 {
+  font-size: 4vh;
+}
