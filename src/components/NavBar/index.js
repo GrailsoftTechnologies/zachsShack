@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, NavbarBrand, NavbarToggler, Nav, NavItem, Collapse } from 'reactstrap';
 import './styles.css';
 import Logo from '../../img/zachs.jpeg';
 
@@ -8,13 +8,13 @@ class NavBar extends Component {
   render() {
     return (
       <Navbar inverse fluid collapseOnSelect className={this.props.className}>
-        <Navbar.Header>
-          <Navbar.Brand>
+        <Navbar>
+          <NavbarBrand>
             <Link to="/"><img id="zachLogo" src={Logo} alt="the Zach's Shack logo"></img></Link>
-          </Navbar.Brand>
-          <Navbar.Toggle/>
-        </Navbar.Header>
-        <Navbar.Collapse>
+          </NavbarBrand>
+          <NavbarToggler/>
+        </Navbar>
+        <Collapse>
           <Nav pullLeft>
             <NavItem href={"#/Menu"} className="menuItem">Menu</NavItem>
             <NavItem href={"#/About"} className="menuItem">About</NavItem>
@@ -25,7 +25,7 @@ class NavBar extends Component {
             <NavItem href="https://www.facebook.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></NavItem>
             <NavItem href="https://www.twitter.com" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-twitter-square desktop-only"></span></NavItem>
           </Nav>
-        </Navbar.Collapse>
+        </Collapse>
       </Navbar>
     );
   }
