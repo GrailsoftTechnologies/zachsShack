@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import './styles.css';
-import Logo from '../../IMG/zachs.jpeg';
+import Logo from '../../img/zachs.jpeg';
 
 class NavBar extends Component {
   render() {
