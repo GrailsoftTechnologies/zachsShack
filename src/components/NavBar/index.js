@@ -21,8 +21,8 @@ class NavBar extends Component {
   render() {
     return (
       <Navbar expand="md" className={this.props.className}>
-        <NavbarBrand>
-          <Link to="#"><img id="zachsLogo" src={Logo} alt="the Zach's Shack logo"></img></Link>
+        <NavbarBrand href="#">
+          <img id="zachsLogo" src={Logo} alt="the Zach's Shack logo"></img>
         </NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
