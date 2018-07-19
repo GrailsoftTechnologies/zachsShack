@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, NavbarBrand, NavbarToggler, Nav, NavItem, Collapse } from 'reactstrap';
+import { Navbar, NavbarBrand, NavbarToggler, Nav, NavItem, NavLink, Collapse } from 'reactstrap';
 import './styles.css';
-import Logo from '../../img/zachsnav.jpeg';
+import Logo from '../../img/zachslogo.jpg';
 
 class NavBar extends Component {
   constructor(props) {
@@ -20,18 +20,23 @@ class NavBar extends Component {
   }
   render() {
     return (
-      <Navbar inverse fluid collapseOnSelect className={this.props.className}>
-        <Navbar>
-          <NavbarBrand>
-            <Link to="/"><img id="zachLogo" src={Logo} alt="the Zach's Shack logo"></img></Link>
-          </NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-        </Navbar>
+      <Navbar expand="md" className={this.props.className}>
+        <NavbarBrand>
+          <Link to="#"><img id="zachsLogo" src={Logo} alt="the Zach's Shack logo"></img></Link>
+        </NavbarBrand>
+        <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
-          <Nav pullLeft>
-            <NavItem href={"#/Menu"} className="menuItem">Menu</NavItem>
-            <NavItem href={"#/About"} className="menuItem">About</NavItem>
-            <NavItem href={"#/Contact"} className="menuItem">Contact</NavItem>
+          <Nav className="ml-auto" navbar>
+            <NavItem>
+							<NavLink href={"#/Menu"} className="menuItem">Menu
+							</NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink href={"#/About"} className="menuItem">About</NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink href={"#/Contact"} className="menuItem">Contact</NavLink>
+						</NavItem>
           </Nav>
           <Nav>
             <NavItem href="https://www.instagram.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-instagram desktop-only"></span></NavItem>
@@ -45,7 +50,7 @@ class NavBar extends Component {
 }
 
 NavBar.defaultProps = {
-  className: "navigationBar navbar-fixed-top",
+  className: "sticky-top navbar-dark bg-dark",
 }
 
 export default NavBar;
