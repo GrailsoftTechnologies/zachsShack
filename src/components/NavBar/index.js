@@ -39,9 +39,15 @@ class NavBar extends Component {
 						</NavItem>
           </Nav>
           <Nav>
-            <NavItem href="https://www.instagram.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-instagram desktop-only"></span></NavItem>
-            <NavItem href="https://www.facebook.com/brickandmotorpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></NavItem>
-            <NavItem href="https://www.twitter.com" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-twitter-square desktop-only"></span></NavItem>
+						<NavItem>
+							<NavLink href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-instagram desktop-only"></span></NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink href="https://www.twitter.com" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-twitter-square desktop-only"></span></NavLink>
+						</NavItem>
           </Nav>
         </Collapse>
       </Navbar>
