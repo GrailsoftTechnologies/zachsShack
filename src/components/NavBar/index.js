@@ -48,13 +48,13 @@ class NavBar extends Component {
           </Nav>
           <Nav className="socialIcons">
 						<NavItem>
-							<NavLink href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-instagram desktop-only"></span></NavLink>
+							<NavLink href="https://www.instagram.com/explore/locations/227503863/zachs-shack/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-instagram desktop-only"></span></NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></NavLink>
+							<NavLink href="https://www.facebook.com/ZachsShackHotdogs/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="https://www.twitter.com" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-twitter-square desktop-only"></span></NavLink>
+							<NavLink href="https://www.twitter.com" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-yelp desktop-only"></span></NavLink>
 						</NavItem>
           </Nav>
         </Collapse>
