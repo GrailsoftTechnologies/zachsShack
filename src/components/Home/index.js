@@ -19,7 +19,8 @@ class Home extends Component {
 				<Row>
 					<Col>
 						<Jumbotron>
-							<h1 className="display-3">Hot Dogs Delivered</h1>
+							<h1 className="display-3">Hot Dogs</h1>
+							<h1 className="display-4">Delivered</h1>
 							<Button href={"https://postmates.com/merchant/zachs-shack-portland"} color="success">Order Here</Button>
 						</Jumbotron>
 					</Col>
