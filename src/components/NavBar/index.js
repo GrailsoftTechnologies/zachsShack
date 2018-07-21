@@ -9,6 +9,7 @@ class NavBar extends Component {
   super(props);
 
   this.toggle = this.toggle.bind(this);
+	this.toggle2 = this.toggle2.bind(this);
   this.state = {
       isOpen: false
     };
@@ -17,6 +18,13 @@ class NavBar extends Component {
     this.setState({
       isOpen: !this.state.isOpen
     });
+  }
+	toggle2() {
+		if (this.state.isOpen) {
+			this.setState({
+	      isOpen: false
+	    });
+		}
   }
   render() {
     return (
@@ -28,14 +36,14 @@ class NavBar extends Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-							<NavLink href={"#/Menu"} className="menuItem" onClick={this.toggle}>Menu
+							<NavLink href={"#/Menu"} className="menuItem" onClick={this.toggle2}>Menu
 							</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href={"#/About"} className="menuItem" onClick={this.toggle}>About</NavLink>
+							<NavLink href={"#/About"} className="menuItem" onClick={this.toggle2}>About</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href={"#/Contact"} className="menuItem" onClick={this.toggle}>Contact</NavLink>
+							<NavLink href={"#/Contact"} className="menuItem" onClick={this.toggle2}>Contact</NavLink>
 						</NavItem>
           </Nav>
           <Nav className="socialIcons">
@@ -56,7 +64,7 @@ class NavBar extends Component {
 }
 
 NavBar.defaultProps = {
-  className: "sticky-top navbar-dark bg-dark",
+  className: "sticky-top navbar-dark bg-dark Navbar",
 }
 
 export default NavBar;

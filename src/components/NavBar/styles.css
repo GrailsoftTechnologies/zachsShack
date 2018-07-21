@@ -1,5 +1,4 @@
 .NavBar {
-
 }
 
 .socialIcons{
@@ -38,7 +37,7 @@
   margin-left: 5vw;
 }
 .menuItem{
-  font-size: 2vh;
+  font-size: 3vh;
 }
 /*
 @media (max-width: 991px) {
