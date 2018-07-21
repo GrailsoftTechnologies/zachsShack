@@ -54,7 +54,7 @@ class NavBar extends Component {
 							<NavLink href="https://www.facebook.com/ZachsShackHotdogs/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="https://www.twitter.com" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-yelp desktop-only"></span></NavLink>
+							<NavLink href="https://www.yelp.com/biz/zachs-shack-portland" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-yelp desktop-only"></span></NavLink>
 						</NavItem>
           </Nav>
         </Collapse>
