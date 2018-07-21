@@ -12,6 +12,7 @@ import './styles.css';
 
 class Router extends Component {
   render() {
+		window.scrollTo(0,0);
     return (
       <div className="Router">
         <Switch>
