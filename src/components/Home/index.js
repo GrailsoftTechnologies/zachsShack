@@ -11,7 +11,7 @@ class Home extends Component {
 					<Col>
 						<Jumbotron>
 							<h1 className="display-3">Zach's Shack</h1>
-							<h1 className="display-4">Hot Dogs</h1>
+							<h1 className="display-2">Hot Dogs</h1>
           		<p className="lead">Come check us out</p>
 						</Jumbotron>
 					</Col>

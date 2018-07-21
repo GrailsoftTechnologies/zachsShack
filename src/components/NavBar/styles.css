@@ -2,6 +2,10 @@
 
 }
 
+.socialIcons{
+	justify-content: center;
+}
+
 
 /* Bootstrap overrides */
 .bg-dark {

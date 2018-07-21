@@ -28,17 +28,17 @@ class NavBar extends Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-							<NavLink href={"#/Menu"} className="menuItem">Menu
+							<NavLink href={"#/Menu"} className="menuItem" onClick={this.toggle}>Menu
 							</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href={"#/About"} className="menuItem">About</NavLink>
+							<NavLink href={"#/About"} className="menuItem" onClick={this.toggle}>About</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href={"#/Contact"} className="menuItem">Contact</NavLink>
+							<NavLink href={"#/Contact"} className="menuItem" onClick={this.toggle}>Contact</NavLink>
 						</NavItem>
           </Nav>
-          <Nav>
+          <Nav className="socialIcons">
 						<NavItem>
 							<NavLink href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-instagram desktop-only"></span></NavLink>
 						</NavItem>
