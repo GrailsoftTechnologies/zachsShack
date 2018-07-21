@@ -12,11 +12,10 @@ class Home extends Component {
 						<Jumbotron>
 							<h1 className="display-3">Zach's Shack</h1>
 							<h1 className="display-4">Hot Dogs</h1>
-          		<p className="lead">Come check us out</p>
+							<Button href={"#/Contact"} color="secondary">Find us</Button>
 						</Jumbotron>
 					</Col>
 				</Row>
-				<hr className="redBreak"></hr>
 				<Row>
 					<Col>
 						<Jumbotron>

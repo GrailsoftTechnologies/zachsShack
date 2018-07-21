@@ -5,6 +5,7 @@
 }
 
 .Home .jumbotron{
-	background-color: transparent;
-	color: #947A13;
+	background-color: rgba(175, 175, 120, 0.4);
+	color: #A65A4E;
+	text-shadow: 2px 2px black;
 }
