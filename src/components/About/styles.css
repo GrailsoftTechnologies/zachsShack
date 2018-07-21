@@ -1,8 +1,6 @@
-.aboutWrapper {
-  margin: auto;
-  max-width: 1200px;
-}
 
-.jumbotron {
-	background-color: black;
+
+.aboutText {
+	background-color: #AFAF78;
+	color: #A65A4E;
 }

@@ -8,7 +8,7 @@ render() {
       <Container className="About">
 				<Row>
 					<Col>
-						<Jumbotron>
+						<Jumbotron className="aboutText">
 							<h1 className="display-3">Hot Dogs</h1>
 			        <p className="lead">Life can be complicated. Hot dogs are simple. They come in different styles, and they taste great with a beer and a side of fries.</p>
 			        <hr className="my-1" />
