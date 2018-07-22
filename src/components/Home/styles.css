@@ -4,6 +4,14 @@
 	min-height: 75vh;
 }
 
+.Home .display-3 {
+	font-family: 'Burner', Arial, sans-serif;
+}
+
+.Home .display-4 {
+	font-family: 'Burner', Arial, sans-serif;
+}
+
 .Home .jumbotron{
 	background-color: rgba(175, 175, 120, 0.4);
 	color: #A65A4E;
