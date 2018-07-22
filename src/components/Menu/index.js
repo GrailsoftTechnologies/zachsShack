@@ -7,7 +7,7 @@ render() {
   return(
     <Container className="Menu">
 			<Row>
-				<Col sm="6" className="dogType">
+				<Col sm="4" className="dogType">
 					<h1>
 						Chicago Dog $5.50
 					</h1>
@@ -15,7 +15,7 @@ render() {
 						Yellow Mustard, Onion, Neon Relish, Sport Peppers, Pickle Spear, Tomato, Celery Salt, Poppy Seed Bun
 					</p>
 				</Col>
-				<Col sm="6" className="dogType">
+				<Col sm="4" className="dogType">
 					<h1>
 						New York Dog  $5.75
 					</h1>
@@ -23,7 +23,7 @@ render() {
 						Cheddar Cheese, Yellow Mustard, Onion, Chili
 					</p>
 				</Col>
-				<Col sm="6" className="dogType">
+				<Col sm="4" className="dogType">
 					<h1>
 						Syd Dog  $4.50
 					</h1>
@@ -31,7 +31,7 @@ render() {
 						Ketchup, Mayo, Green Relish, Pickle Slices
 					</p>
 				</Col>
-				<Col sm="6" className="dogType">
+				<Col sm="4" className="dogType">
 					<h1>
 						Sgt. Peppers  $5.75
 					</h1>
@@ -39,7 +39,7 @@ render() {
 						Brown Mustard, Jalapenos, Peperoncinis, Sport Peppers
 					</p>
 				</Col>
-				<Col sm="6" className="dogType">
+				<Col sm="4" className="dogType">
 					<h1>
 						Los Lobos Dog  $6.50
 					</h1>
@@ -47,20 +47,68 @@ render() {
 						Cheddar Cheese, Salsa, Sour Cream, Black Olives, Jalapenos
 					</p>
 				</Col>
-				<Col sm="6" className="dogType">
+				<Col sm="4" className="dogType">
 					<h1>
-						Scorpion Dog  $5.25
+						Scorpions Dog  $5.25
 					</h1>
 					<p>
 						Brown Mustard, Sauerkraut
 					</p>
 				</Col>
-				<Col sm="6" className="dogType">
+				<Col sm="4" className="dogType">
 					<h1>
 						Dylan Dog  $5.75
 					</h1>
 					<p>
 						Cream Cheese, Onion, Tomato
+					</p>
+				</Col>
+				<Col sm="4" className="dogType">
+					<h1>
+						Feat Dog $5.25
+					</h1>
+					<p>
+						Brown Mustard, Cole Slaw
+					</p>
+				</Col>
+				<Col sm="4" className="dogType">
+					<h1>
+						John Popper $5.75
+					</h1>
+					<p>
+						Cream Cheese, Onions, Green Relish, Jalapenos, Sweet Thai Chili Sauce
+					</p>
+				</Col>
+				<Col sm="4" className="dogType">
+					<h1>
+						Grateful Dog $5.50
+					</h1>
+					<p>
+						Onion, Cucumber, Tomato, Celery Salt
+					</p>
+				</Col>
+				<Col sm="4" className="dogType">
+					<h1>
+						James Brown $6.50
+					</h1>
+					<p>
+						Cream Cheese, Jalapenos, Chili, Sour Cream
+					</p>
+				</Col>
+				<Col sm="4" className="dogType">
+					<h1>
+						Zach's Favorite $5.25
+					</h1>
+					<p>
+						Brown Mustard, Red Relish, Sport Peppers, Onion, Pickle Slices, Celery Salt
+					</p>
+				</Col>
+				<Col sm="4" className="dogType">
+					<h1>
+						Wings Dog $6.00
+					</h1>
+					<p>
+						Carrots, Blue Cheese, Sour Cream, Aardvark, Celery Salt
 					</p>
 				</Col>
 			</Row>
