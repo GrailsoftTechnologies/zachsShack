@@ -9,7 +9,7 @@ render() {
 			<Row>
 				<Col sm="6" className="dogType">
 					<h1>
-						Chicago Dog $4.75
+						Chicago Dog $5.50
 					</h1>
 					<p>
 						Yellow Mustard, Onion, Neon Relish, Sport Peppers, Pickle Spear, Tomato, Celery Salt, Poppy Seed Bun
@@ -17,7 +17,7 @@ render() {
 				</Col>
 				<Col sm="6" className="dogType">
 					<h1>
-						New York Dog  $4.75
+						New York Dog  $5.75
 					</h1>
 					<p>
 						Cheddar Cheese, Yellow Mustard, Onion, Chili
@@ -25,7 +25,7 @@ render() {
 				</Col>
 				<Col sm="6" className="dogType">
 					<h1>
-						Syd Dog  $4.00
+						Syd Dog  $4.50
 					</h1>
 					<p>
 						Ketchup, Mayo, Green Relish, Pickle Slices
@@ -33,7 +33,7 @@ render() {
 				</Col>
 				<Col sm="6" className="dogType">
 					<h1>
-						Sgt. Peppers  $4.75
+						Sgt. Peppers  $5.75
 					</h1>
 					<p>
 						Brown Mustard, Jalapenos, Peperoncinis, Sport Peppers
@@ -41,7 +41,7 @@ render() {
 				</Col>
 				<Col sm="6" className="dogType">
 					<h1>
-						Los Lobos Dog  $5.50
+						Los Lobos Dog  $6.50
 					</h1>
 					<p>
 						Cheddar Cheese, Salsa, Sour Cream, Black Olives, Jalapenos
@@ -49,7 +49,7 @@ render() {
 				</Col>
 				<Col sm="6" className="dogType">
 					<h1>
-						Scorpion Dog  $4.50
+						Scorpion Dog  $5.25
 					</h1>
 					<p>
 						Brown Mustard, Sauerkraut
@@ -57,7 +57,7 @@ render() {
 				</Col>
 				<Col sm="6" className="dogType">
 					<h1>
-						Dylan Dog  $4.75
+						Dylan Dog  $5.75
 					</h1>
 					<p>
 						Cream Cheese, Onion, Tomato
