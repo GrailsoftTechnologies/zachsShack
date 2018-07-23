@@ -15,6 +15,7 @@ class Contact extends Component {
 					<Col>
 						<div className="mapBox">
 	            <iframe
+								title="googleMap"
 	              height="400px"
 	              width="100%"
 	              frameborder="0"
