@@ -1,6 +1,11 @@
 .Contact{
 	color: #A65A4E;
 }
+
+.Contact h1{
+	font-family: 'codygraff', Arial, 'Roboto';
+	font-size: 4rem;
+}
 .mapBox{
   width: 80%;
   margin: auto;

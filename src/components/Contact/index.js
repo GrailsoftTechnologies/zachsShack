@@ -8,7 +8,7 @@ class Contact extends Component {
 			<Container className= "Contact">
 				<Row>
 					<Col>
-						<h1>Call (503) 233-4616</h1>
+						<h1>CALL 503c233e4616</h1>
 					</Col>
 				</Row>
 				<Row>
