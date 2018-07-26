@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
 import './styles.css';
-import Logo from '../../img/zachslogo.jpg';
 
-class NavBar extends Component {
+class AltNavBar extends Component {
   constructor(props) {
   	super(props);
 	}
   render() {
     return (
-      <Container>
+      <Container className="AltNavBar">
 				<Row>
 					<Col xs='3'>
 						<Button href={"https://postmates.com/merchant/zachs-shack-portland"} color="success">Order Here</Button>
@@ -35,14 +34,20 @@ class NavBar extends Component {
 					<Col>
 						<a href="/#/menu">Menu</a>
 					</Col>
+					<Col>
+						<a href="/#/about">About</a>
+					</Col>
+					<Col>
+						<a href="/#/contact">Contact</a>
+					</Col>
 				</Row>
 			</Container>
     );
   }
 }
 
-NavBar.defaultProps = {
+AltNavBar.defaultProps = {
   className: "",
 }
 
-export default NavBar;
+export default AltNavBar;
