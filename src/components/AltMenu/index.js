@@ -16,6 +16,7 @@ render() {
 					</p>
 				</Col>
 			</Row>
+			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
 					<h1>
@@ -26,6 +27,7 @@ render() {
 					</p>
 				</Col>
 			</Row>
+			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
 					<h1>
@@ -36,6 +38,7 @@ render() {
 					</p>
 				</Col>
 			</Row>
+			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
 					<h1>
@@ -46,6 +49,7 @@ render() {
 					</p>
 				</Col>
 			</Row>
+			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
 					<h1>
@@ -56,6 +60,7 @@ render() {
 					</p>
 				</Col>
 			</Row>
+			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
 					<h1>
@@ -66,6 +71,7 @@ render() {
 					</p>
 				</Col>
 			</Row>
+			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
 					<h1>
@@ -76,6 +82,7 @@ render() {
 					</p>
 				</Col>
 			</Row>
+			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
 					<h1>
@@ -86,6 +93,7 @@ render() {
 					</p>
 				</Col>
 			</Row>
+			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
 					<h1>
@@ -96,6 +104,7 @@ render() {
 					</p>
 				</Col>
 			</Row>
+			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
 					<h1>
@@ -106,6 +115,7 @@ render() {
 					</p>
 				</Col>
 			</Row>
+			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
 					<h1>
@@ -116,6 +126,7 @@ render() {
 					</p>
 				</Col>
 			</Row>
+			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
 					<h1>
@@ -126,6 +137,7 @@ render() {
 					</p>
 				</Col>
 			</Row>
+			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
 					<h1>

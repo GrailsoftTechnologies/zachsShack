@@ -1,11 +1,8 @@
 .AltMenu {
-	background-color: #AFAF78;
-	width: 70vw;
+	background-color: red;
+	padding-top: 48px;
 }
 
 .dogType {
-	border: 1px solid #947A13;
-	border-collapse: collapse;
-	color: #A65A4E;
 	font-family: 'Roboto';
 }
