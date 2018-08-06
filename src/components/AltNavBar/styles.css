@@ -8,10 +8,24 @@
 	color: black;
 }
 
+.AltNavBar h1 {
+	color: black;
+}
+
 
 
 @media (max-width: 575px) {
   #socialIcons {
       visibility: hidden;
   }
+
+	.AltNavBar a {
+		color: black;
+		font-size: 5vw;
+	}
+
+	.AltNavBar h1 {
+		color: black;
+		font-size: 10vw;
+	}
 }

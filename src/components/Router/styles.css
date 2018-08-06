@@ -1,4 +1,7 @@
 .Router{
 	min-height: 75vh;
 	background-color: #AFAF78;
+	background-image: url('../../img/unsplashhotdog.jpg');
+	background-position: center;
+	background-size: contain;
 }
