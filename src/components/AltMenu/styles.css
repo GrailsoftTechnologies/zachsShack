@@ -1,8 +1,23 @@
 .AltMenu {
-	background-color: red;
-	padding-top: 48px;
+	background-color: rgba(255, 0, 0, 0.8);
+	padding-top: 16px;
+	color: white;
+}
+
+.AltMenu .row{
+	margin-top: 32px;
 }
 
 .dogType {
 	font-family: 'Roboto';
+}
+
+.AltMenu .container{
+	max-width: 500px;
+}
+
+@media (min-width: 992px){
+	.AltMenu{
+		max-width: 800px !important;
+	}
 }

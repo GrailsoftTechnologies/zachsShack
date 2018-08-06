@@ -3,5 +3,7 @@
 	background-color: #AFAF78;
 	background-image: url('../../img/unsplashhotdog.jpg');
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 48px;
 }
