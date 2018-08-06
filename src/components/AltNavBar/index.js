@@ -27,7 +27,7 @@ class AltNavBar extends Component {
 							<Container>
 								<Row>
 									<Col>
-										<a href="/#"><h1>Zach's Shack</h1></a>
+										<a href="#"><h1>Zach's Shack</h1></a>
 									</Col>
 								</Row>
 							</Container>
@@ -36,13 +36,13 @@ class AltNavBar extends Component {
 					<Row>
 						<Col md="3"></Col>
 						<Col>
-							<a href="/#/menu">Menu</a>
+							<a href="#/menu">Menu</a>
 						</Col>
 						<Col>
-							<a href="/#/about">About</a>
+							<a href="#/about">About</a>
 						</Col>
 						<Col>
-							<a href="/#/contact">Contact</a>
+							<a href="#/contact">Contact</a>
 						</Col>
 						<Col md="3"></Col>
 					</Row>
