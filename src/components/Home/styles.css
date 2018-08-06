@@ -1,7 +1,12 @@
 .Home {
 	min-height: 75vh;
+	padding-top: 10%;
+	color: white;
 }
 
+.Home h1{
+	font-size: 12vw;
+}
 .Home .display-3 {
 	font-family: 'Burner', Arial, sans-serif;
 }

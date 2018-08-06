@@ -9,20 +9,7 @@ class Home extends Component {
 			<Container className="Home">
 				<Row>
 					<Col>
-						<Jumbotron>
-							<h1 className="display-3">ZACHS SHACK</h1>
-							<h1 className="display-4">HOT DOGS</h1>
-							<Button href={"#/Contact"} color="secondary">Find us</Button>
-						</Jumbotron>
-					</Col>
-				</Row>
-				<Row>
-					<Col>
-						<Jumbotron>
-							<h1 className="display-3">HOT DOGS</h1>
-							<h1 className="display-4">DELIVERED</h1>
-							<Button href={"https://postmates.com/merchant/zachs-shack-portland"} color="success">Order Here</Button>
-						</Jumbotron>
+						<h1>Zach's Shack</h1>
 					</Col>
 				</Row>
 			</Container>
