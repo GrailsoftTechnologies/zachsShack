@@ -7,6 +7,12 @@
 .Home h1{
 	font-size: 12vw;
 }
+.Home h2{
+	font-size: 8vw;
+}
+.Home h3{
+	font-size: 6vw;
+}
 .Home .display-3 {
 	font-family: 'Burner', Arial, sans-serif;
 }

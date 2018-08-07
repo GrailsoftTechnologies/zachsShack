@@ -10,6 +10,8 @@ class Home extends Component {
 				<Row>
 					<Col>
 						<h1>Zach's Shack</h1>
+						<h2>Dogs with a Snap!</h2>
+						<h3>Open Noon-3am Everyday</h3>
 					</Col>
 				</Row>
 			</Container>
