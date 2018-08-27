@@ -20,6 +20,17 @@ class Home extends Component {
             <img src={happyHour} alt="happy hour"/>
           </Col>
         </Row>
+        <Row>
+					<Col>
+						<h3>Join us for...</h3>
+						<p>Local Craft Beers</p>
+            <p>Thursday Night Trivia at 8pm</p>
+            <p>Summer Patio Seating</p>
+            <p>Annual Hot Dog Eating Contest</p>
+            <p>Outdoor Ping Pong</p>
+            <p>Trail Blazers Games</p>
+					</Col>
+				</Row>
 			</Container>
     );
   }
