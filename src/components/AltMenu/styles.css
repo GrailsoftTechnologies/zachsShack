@@ -1,10 +1,15 @@
 .AltMenu {
+	font-family: 'Roboto';
+}
+
+.MenuSection {
 	background-color: rgba(255, 0, 0, 0.8);
 	padding-top: 16px;
+	margin-top: 16px;
 	color: white;
 }
 
-.AltMenu .row{
+.MenuSection .row{
 	margin-top: 32px;
 }
 
@@ -12,12 +17,12 @@
 	font-family: 'Roboto';
 }
 
-.AltMenu .container{
+.MenuSection .container{
 	max-width: 500px;
 }
 
 @media (min-width: 992px){
-	.AltMenu{
+	.MenuSection{
 		max-width: 800px !important;
 	}
 }
