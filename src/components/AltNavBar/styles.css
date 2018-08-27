@@ -12,10 +12,18 @@
 	color: black;
 }
 
+.AltNavBar a:hover {
+    color: white;
+}
+
+.AltNavBar h1:hover {
+    color: white;
+}
+
 
 
 @media (max-width: 575px) {
-  #socialIcons {
+  .socialIcons {
       visibility: hidden;
   }
 
