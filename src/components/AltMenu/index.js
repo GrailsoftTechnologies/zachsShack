@@ -70,7 +70,7 @@ render() {
 						Sgt. Peppers $5.75
 					</h1>
 					<p>
-						Brown Mustard, Jalapenos, Peperoncinis, Sport Peppers
+						Brown Mustard, Jalape&#241;os, Peperoncinis, Sport Peppers
 					</p>
 				</Col>
 			</Row>
@@ -81,7 +81,7 @@ render() {
 						Los Lobos Dog $6.50
 					</h1>
 					<p>
-						Cheddar Cheese, Salsa, Sour Cream, Black Olives, Jalapenos
+						Cheddar Cheese, Salsa, Sour Cream, Black Olives, Jalape&#241;os
 					</p>
 				</Col>
 			</Row>
@@ -125,7 +125,7 @@ render() {
 						John Popper $5.75
 					</h1>
 					<p>
-						Cream Cheese, Onions, Green Relish, Jalapenos, Sweet Thai Chili Sauce
+						Cream Cheese, Onions, Green Relish, Jalape&#241;os, Sweet Thai Chili Sauce
 					</p>
 				</Col>
 			</Row>
@@ -147,7 +147,7 @@ render() {
 						James Brown $6.50
 					</h1>
 					<p>
-						Cream Cheese, Jalapenos, Chili, Sour Cream
+						Cream Cheese, Jalape&#241;os, Chili, Sour Cream
 					</p>
 				</Col>
 			</Row>
@@ -200,7 +200,7 @@ render() {
 						75 cent Toppings
 					</h3>
 					<p>
-						Tomato Slices, Pickle Slices, Pickle Spears, Black Olives, Jalapenos, Pepperoncini, Salsa, Cucumbers, Sour Cream, Sport Peppers, Carrots, Side of Ranch or Marinara
+						Tomato Slices, Pickle Slices, Pickle Spears, Black Olives, Jalape&#241;os, Pepperoncini, Salsa, Cucumbers, Sour Cream, Sport Peppers, Carrots, Side of Ranch or Marinara
 					</p>
 				</Col>
 			</Row>
@@ -257,7 +257,7 @@ render() {
       <Row>
         <Col>
           <h3>
-            Cheddar and Jalapeno $7
+            Cheddar and Jalape&#241;o $7
           </h3>
         </Col>
       </Row>
@@ -292,7 +292,7 @@ render() {
       <Row>
 				<Col>
 					<h1>
-						Jalapeno Poppers (5) $7.50
+						Jalape&#241;o Poppers (5) $7.50
 					</h1>
 					<p>
 						stuffed with cream cheese and served with sweet chili Thai sauce
