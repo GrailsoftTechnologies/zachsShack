@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
 import './styles.css';
+import happyHour from '../../img/happyhour.jpg';
 
 
 class Home extends Component {
@@ -14,6 +15,11 @@ class Home extends Component {
 						<h3>Open Noon-3am Everyday</h3>
 					</Col>
 				</Row>
+        <Row>
+          <Col>
+            <img src={happyHour} alt="happy hour"/>
+          </Col>
+        </Row>
 			</Container>
     );
   }
