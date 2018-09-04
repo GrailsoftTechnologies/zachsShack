@@ -2,7 +2,7 @@
   "name": "zachs",
   "version": "0.1.0",
   "private": true,
-	"homepage": "https://grailsofttechnologies.github.io/zachsShack",
+	"homepage": "https://zachsshack.com",
   "dependencies": {
     "bootstrap": "^4.1.2",
     "font-awesome": "^4.7.0",
