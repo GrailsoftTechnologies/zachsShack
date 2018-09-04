@@ -11,6 +11,11 @@ class Contact extends Component {
 						<h1><a href="tel:+15032334616">CALL (503)-233-4616</a></h1>
 					</Col>
 				</Row>
+        <Row>
+					<Col>
+						<h3><a href="mailto:info@zachsshack.com">EMAIL INFO@ZACHSSHACK.COM</a></h3>
+					</Col>
+				</Row>
 				<Row>
 					<Col>
 						<div className="mapBox">

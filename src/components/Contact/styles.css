@@ -7,6 +7,7 @@
 .Contact a{
 	font-size: 4rem;
 }
+
 .mapBox{
   width: 80%;
   margin: auto;
@@ -14,6 +15,6 @@
 
 @media (max-width: 768px){
 	.Contact a{
-		font-size: 9vw;
+		font-size: 7vw;
 	}
 }
