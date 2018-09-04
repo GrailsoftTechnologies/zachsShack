@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import './styles.css';
 import happyHour from '../../img/happyhour.jpg';
 

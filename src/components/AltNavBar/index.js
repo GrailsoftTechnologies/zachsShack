@@ -3,11 +3,6 @@ import { Container, Row, Col, Button } from 'reactstrap';
 import './styles.css';
 
 class AltNavBar extends Component {
-  constructor(props) {
-  	super(props);
-	}
-
-
   render() {
     return (
       <div className="AltNavBar">
@@ -27,7 +22,7 @@ class AltNavBar extends Component {
 							<Container>
 								<Row>
 									<Col>
-										<a href="#"><h1>Zach's Shack</h1></a>
+										<a href="#/"><h1>Zach's Shack</h1></a>
 									</Col>
 								</Row>
 							</Container>
