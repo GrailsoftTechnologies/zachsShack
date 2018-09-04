@@ -13,7 +13,7 @@ class Contact extends Component {
 				</Row>
         <Row>
 					<Col>
-						<h3><a href="mailto:info@zachsshack.com">EMAIL INFO@ZACHSSHACK.COM</a></h3>
+						<h3><a href="mailto:contact@zachsshack.com">EMAIL CONTACT@ZACHSSHACK.COM</a></h3>
 					</Col>
 				</Row>
 				<Row>
