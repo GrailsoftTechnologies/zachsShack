@@ -4,16 +4,16 @@
 }
 
 .Home h1{
-	font-size: 12vw;
-}
-.Home h2{
 	font-size: 8vw;
 }
-.Home h3{
+.Home h2{
 	font-size: 6vw;
 }
-.Home p{
+.Home h3{
 	font-size: 4vw;
+}
+.Home p{
+	font-size: 2vw;
 }
 .Home img{
 	width: 100%;
@@ -36,4 +36,19 @@
 	background-color: rgba(175, 175, 120, 0.4);
 	color: #A65A4E;
 	text-shadow: 2px 2px black;
+}
+
+@media (max-width: 575.98px) {
+	.Home h1{
+		font-size: 12vw;
+	}
+	.Home h2{
+		font-size: 8vw;
+	}
+	.Home h3{
+		font-size: 6vw;
+	}
+	.Home p{
+		font-size: 4vw;
+	}
 }
