@@ -17,6 +17,7 @@
 
 .AltNavBar a:hover {
     color: white;
+		text-decoration: none;
 }
 
 .AltNavBar h1:hover {
