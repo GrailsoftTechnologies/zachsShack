@@ -1,6 +1,7 @@
 .Home {
 	min-height: 75vh;
 	color: white;
+	background-color: rgba(255, 0, 0, 0.8);
 }
 
 .Home h1{

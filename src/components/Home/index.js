@@ -13,13 +13,16 @@ class Home extends Component {
 						<h1>Zach's Shack</h1>
 						<h2>Dogs with a Snap!</h2>
 						<h3>Open Noon-3am Everyday</h3>
+            <h3>4611 SE Hawthorne Blvd 97215</h3>
 					</Col>
 				</Row>
+        <hr></hr>
         <Row>
           <Col>
             <img src={happyHour} alt="happy hour"/>
           </Col>
         </Row>
+        <hr></hr>
         <Row>
 					<Col>
 						<h3>Join us for...</h3>

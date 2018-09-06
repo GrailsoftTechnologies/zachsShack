@@ -8,14 +8,18 @@ class Contact extends Component {
 			<Container className= "Contact">
 				<Row>
 					<Col>
-						<h1><a href="tel:+15032334616">CALL (503)-233-4616</a></h1>
+            <h1>CALL IN ORDERS</h1>
+						<h1><a href="tel:+15032334616">(503)-233-4616</a></h1>
 					</Col>
 				</Row>
+        <hr></hr>
         <Row>
 					<Col>
-						<h3><a href="mailto:contact@zachsshack.com">EMAIL CONTACT@ZACHSSHACK.COM</a></h3>
+            <h1>FOR PARTIES OR EVENTS</h1>
+						<h1><a href="mailto:contact@zachsshack.com">CONTACT@ZACHSSHACK.COM</a></h1>
 					</Col>
 				</Row>
+        <hr></hr>
 				<Row>
 					<Col>
 						<div className="mapBox">
