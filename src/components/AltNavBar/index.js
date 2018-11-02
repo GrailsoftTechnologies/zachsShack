@@ -8,12 +8,12 @@ class AltNavBar extends Component {
 			<Container className="AltNavBar">
 				<Row className="justify-content-between">
 					<Col xs='3'>
-						<Button href={"https://postmates.com/merchant/zachs-shack-portland"} color="warning">Order Here</Button>
+						<Button href={"https://postmates.com/merchant/zachs-shack-portland"} target="_blank" rel="noreferrer noopener" color="warning">Order Here</Button>
 					</Col>
           <Col xs='3' className="socialIcons">
-						<a href="https://www.yelp.com/biz/zachs-shack-portland"><span className="footer-icon icon fa fa-yelp desktop-only"></span></a>
-						<a href="https://www.facebook.com/ZachsShackHotdogs/"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></a>
-						<a href="https://www.instagram.com/explore/locations/227503863/zachs-shack/"><span className="footer-icon icon fa fa-instagram desktop-only"></span></a>
+						<a href="https://www.yelp.com/biz/zachs-shack-portland" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-yelp desktop-only"></span></a>
+						<a href="https://www.facebook.com/ZachsShackHotdogs/" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></a>
+						<a href="https://www.instagram.com/explore/locations/227503863/zachs-shack/" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-instagram desktop-only"></span></a>
 					</Col>
 				</Row>
 				<Row>

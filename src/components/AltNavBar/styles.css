@@ -14,12 +14,6 @@
 		text-decoration: none;
 }
 
-.AltNavBar h1:hover {
-    color: white;
-}
-
-
-
 @media (max-width: 575px) {
   .socialIcons {
       display: none;

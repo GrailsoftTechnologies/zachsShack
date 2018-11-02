@@ -1,0 +1,6 @@
+const API = {
+  GOOGLEMAPS : "AIzaSyDozY9mgvE7tAZjIUB2d51Ss5EbmKBeKRM",
+  INSTAGRAM: "8326095438.8e6019f.66fe81bae26e4a298df6f70d580b9104"
+};
+
+export default API;

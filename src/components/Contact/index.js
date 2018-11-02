@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from 'reactstrap';
 import "./styles.css";
+import GoogleMapFrame from '../GoogleMapFrame';
 
 class Contact extends Component {
   render() {
@@ -8,33 +9,25 @@ class Contact extends Component {
 			<Container className= "Contact">
 				<Row>
 					<Col>
-            <h1>CALL IN ORDERS</h1>
-						<h1><a href="tel:+15032334616">(503)-233-4616</a></h1>
+            <a href="tel:+15032334616">
+              <h1>CALL IN ORDERS</h1>
+              <h1>(503)-233-4616</h1>
+            </a>
 					</Col>
 				</Row>
         <hr></hr>
         <Row>
 					<Col>
-            <h1>FOR PARTIES OR EVENTS</h1>
-						<h1><a href="mailto:contact@zachsshack.com">CONTACT@ZACHSSHACK.COM</a></h1>
+            <a href="mailto:contact@zachsshack.com">
+              <h1>FOR PARTIES OR EVENTS</h1>
+              <h1>CONTACT@ZACHSSHACK.COM</h1>
+            </a>
 					</Col>
 				</Row>
         <hr></hr>
 				<Row>
 					<Col>
-						<div className="mapBox">
-	            <iframe
-								title="googleMap"
-	              height="400px"
-	              width="100%"
-	              frameborder="0"
-	              styles="border:0"
-	              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDozY9mgvE7tAZjIUB2d51Ss5EbmKBeKRM
-	                &q=Zach's+Shack,Portland+OR
-	                &zoom=14"
-	              allowfullscreen>
-	            </iframe>
-	          </div>
+						<GoogleMapFrame name="Zach's+Shack" location="Portland+OR"/>
 					</Col>
 				</Row>
 			</Container>
