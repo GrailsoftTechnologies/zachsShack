@@ -2,18 +2,11 @@
 	background-color: red;
 	max-width: 100%!important;
 	font-family: 'Porter';
+	color: black!important;
 }
 
-
-.AltNavBar h2 {
+.AltNavBar a {
 	color: black;
-	font-size: 2.5rem;
-
-}
-
-.AltNavBar h1 {
-	color: black;
-	font-size: 4.5rem;
 }
 
 .AltNavBar a:hover {

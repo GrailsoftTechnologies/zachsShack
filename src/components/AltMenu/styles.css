@@ -9,14 +9,6 @@
 	color: white;
 }
 
-.MenuSection .row{
-	margin-top: 32px;
-}
-
-.dogType {
-	font-family: 'Nibus';
-}
-
 .MenuSection .container{
 	max-width: 500px;
 }

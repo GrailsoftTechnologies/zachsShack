@@ -10,10 +10,10 @@ class Home extends Component {
 			<Container className="Home">
 				<Row>
 					<Col>
-						<h1>Zach's Shack</h1>
-						<h2>Dogs with a Snap!</h2>
-						<h3>Open Noon-3am Everyday</h3>
-            <h3>4611 SE Hawthorne Blvd 97215</h3>
+						<h2 style={{fontFamily: 'Porter'}}>Zach's Shack</h2>
+						<h3>Dogs with a Snap!</h3>
+						<h4>Open Noon-3am Everyday</h4>
+            <h4>4611 SE Hawthorne Blvd 97215</h4>
 					</Col>
 				</Row>
         <hr></hr>

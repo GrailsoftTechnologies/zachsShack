@@ -9,177 +9,183 @@ render() {
     <Container className="MenuSection">
       <Row>
         <Col className="MenuHeader">
-          <h1>
+          <h2>
             Signature Dogs
-          </h1>
+          </h2>
           <hr className="my-2"></hr>
-          <i>
-            All signature dogs are prepared with Red Hot Chicago All Beef Dogs in natural casing.
-          </i>
+          <h4>
+            <i>
+              All signature dogs are prepared with Red Hot Chicago All Beef Dogs in natural casing.
+            </i>
+          </h4>
           <h4>
             Substitute the following for no additional charge:
           </h4>
-          <i>
-            Tofu Pup or Turkey Dog
-          </i>
+          <h4>
+            <i>
+              Tofu Pup or Turkey Dog
+            </i>
+          </h4>
           <h4>
             Substitute any of the following for $1.50:
           </h4>
-          <i>
-            Red Hot Spicy Sausage, Cheese Filled Sausage, Linguisa Pork Sausage, or Field Roast Veggie Sausage
-          </i>
+          <h4>
+            <i>
+              Red Hot Spicy Sausage, Cheese Filled Sausage, Linguisa Pork Sausage, or Field Roast Veggie Sausage
+            </i>
+          </h4>
         </Col>
       </Row>
       <hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
-					<h1>
+					<h2>
 						Chicago Dog $5.50
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						Yellow Mustard, Onion, Neon Relish, Sport Peppers, Pickle Spear, Tomato, Celery Salt, Poppy Seed Bun
-					</p>
+					</h4>
 				</Col>
 			</Row>
 			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
-					<h1>
+					<h2>
 						New York Dog $5.75
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						Cheddar Cheese, Yellow Mustard, Onion, Chili
-					</p>
+					</h4>
 				</Col>
 			</Row>
 			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
-					<h1>
+					<h2>
 						Syd Dog $4.50
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						Ketchup, Mayo, Green Relish, Pickle Slices
-					</p>
+					</h4>
 				</Col>
 			</Row>
 			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
-					<h1>
+					<h2>
 						Sgt. Peppers $5.75
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						Brown Mustard, Jalape&#241;os, Peperoncinis, Sport Peppers
-					</p>
+					</h4>
 				</Col>
 			</Row>
 			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
-					<h1>
+					<h2>
 						Los Lobos Dog $6.50
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						Cheddar Cheese, Salsa, Sour Cream, Black Olives, Jalape&#241;os
-					</p>
+					</h4>
 				</Col>
 			</Row>
 			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
-					<h1>
+					<h2>
 						Scorpions Dog $5.25
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						Brown Mustard, Sauerkraut
-					</p>
+					</h4>
 				</Col>
 			</Row>
 			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
-					<h1>
+					<h2>
 						Dylan Dog $5.75
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						Cream Cheese, Onion, Tomato
-					</p>
+					</h4>
 				</Col>
 			</Row>
 			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
-					<h1>
+					<h2>
 						Feat Dog $5.25
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						Brown Mustard, Cole Slaw
-					</p>
+					</h4>
 				</Col>
 			</Row>
 			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
-					<h1>
+					<h2>
 						John Popper $5.75
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						Cream Cheese, Onions, Green Relish, Jalape&#241;os, Sweet Thai Chili Sauce
-					</p>
+					</h4>
 				</Col>
 			</Row>
 			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
-					<h1>
+					<h2>
 						Grateful Dog $5.50
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						Onion, Cucumber, Tomato, Celery Salt
-					</p>
+					</h4>
 				</Col>
 			</Row>
 			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
-					<h1>
+					<h2>
 						James Brown $6.50
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						Cream Cheese, Jalape&#241;os, Chili, Sour Cream
-					</p>
+					</h4>
 				</Col>
 			</Row>
 			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
-					<h1>
+					<h2>
 						Zach's Favorite $5.25
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						Brown Mustard, Red Relish, Sport Peppers, Onion, Pickle Slices, Celery Salt
-					</p>
+					</h4>
 				</Col>
 			</Row>
 			<hr className="my-2"></hr>
 			<Row>
 				<Col className="dogType">
-					<h1>
+					<h2>
 						Wings Dog $6.00
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						Carrots, Blue Cheese, Sour Cream, Aardvark, Celery Salt
-					</p>
+					</h4>
 				</Col>
 			</Row>
 		</Container>
     <Container className="MenuSection">
       <Row>
         <Col className="MenuHeader">
-          <h1>
+          <h2>
             Build Your Own
-          </h1>
+          </h2>
         </Col>
       </Row>
       <hr className="my-2"></hr>
@@ -188,9 +194,9 @@ render() {
 					<h3>
 						Free Toppings
 					</h3>
-					<p>
+					<h4>
 						Yellow Mustard, Brown Mustard, Ketchup, Onions, Mayo, Celery Salt, Neon Green Relish, Red Relish, Dill Relish, Sweet Green Relish
-					</p>
+					</h4>
 				</Col>
 			</Row>
       <hr className="my-2"></hr>
@@ -199,9 +205,9 @@ render() {
 					<h3>
 						75 cent Toppings
 					</h3>
-					<p>
+					<h4>
 						Tomato Slices, Pickle Slices, Pickle Spears, Black Olives, Jalape&#241;os, Pepperoncini, Salsa, Cucumbers, Sour Cream, Sport Peppers, Carrots, Side of Ranch or Marinara
-					</p>
+					</h4>
 				</Col>
 			</Row>
       <hr className="my-2"></hr>
@@ -210,9 +216,9 @@ render() {
           <h3>
             $1.50 Toppings
           </h3>
-          <p>
+          <h4>
             Cream Cheese, Cheddar CHeese, Blue Cheese, Chili, Veggie Chili, Cole Slaw, Sauerkraut
-          </p>
+          </h4>
         </Col>
       </Row>
       <hr className="my-2"></hr>
@@ -227,9 +233,9 @@ render() {
     <Container className="MenuSection">
       <Row>
         <Col className="MenuHeader">
-          <h1>
+          <h2>
             Fries
-          </h1>
+          </h2>
         </Col>
       </Row>
       <hr className="my-2"></hr>
@@ -272,85 +278,85 @@ render() {
     <Container className="MenuSection">
       <Row>
         <Col className="MenuHeader">
-          <h1>
+          <h2>
             Extras
-          </h1>
+          </h2>
         </Col>
       </Row>
       <hr className="my-2"></hr>
       <Row>
 				<Col>
-					<h1>
+					<h2>
 						Mozzarella Sticks (5) $7.50
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						served with marinara sauce
-					</p>
+					</h4>
 				</Col>
 			</Row>
       <hr className="my-2"></hr>
       <Row>
 				<Col>
-					<h1>
+					<h2>
 						Jalape&#241;o Poppers (5) $7.50
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						stuffed with cream cheese and served with sweet chili Thai sauce
-					</p>
+					</h4>
 				</Col>
 			</Row>
       <hr className="my-2"></hr>
       <Row>
         <Col>
-          <h1>
+          <h2>
             Chips $1.50
-          </h1>
+          </h2>
         </Col>
       </Row>
     </Container>
     <Container className="MenuSection">
       <Row>
         <Col className="MenuHeader">
-          <h1>
+          <h2>
             Drinks
-          </h1>
+          </h2>
         </Col>
       </Row>
       <hr className="my-2"></hr>
       <Row>
 				<Col>
-					<h1>
+					<h2>
 						Soda (free refills) $2.50
-					</h1>
-					<p>
+					</h2>
+					<h4>
 						Coke
-					</p>
-          <p>
+					</h4>
+          <h4>
 						Diet Coke
-					</p>
-          <p>
+					</h4>
+          <h4>
 						Sprite
-					</p>
-          <p>
+					</h4>
+          <h4>
 						Ginger Ale
-					</p>
-          <p>
+					</h4>
+          <h4>
 						Orange
-					</p>
-          <p>
+					</h4>
+          <h4>
 						Ice Tea
-					</p>
-          <p>
+					</h4>
+          <h4>
 						Lemonade $3(no refill)
-					</p>
+					</h4>
 				</Col>
 			</Row>
       <hr className="my-2"></hr>
       <Row>
 				<Col>
-					<h1>
+					<h2>
             Local Craft Beer, Wine, and Liquor Available
-					</h1>
+					</h2>
 				</Col>
 			</Row>
     </Container>
