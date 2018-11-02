@@ -1,9 +1,9 @@
 .Footer {
-  height: 6vh;
+  height: 8vh;
   font-size: 1.75vh;
   font-weight: lighter;
   width: 100%;
-  padding-top: 1vh;
+  padding-top: 2vh;
 }
 
 .Footer a {
