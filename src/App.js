@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import Router from './components/Router/index.js';
-// import NavBar from './components/NavBar';
 import AltNavBar from './components/AltNavBar';
 import Footer from './components/Footer';
 import './App.css';
-
+import Background from './img/postmates.jpg'
 
 class App extends Component {
   render() {

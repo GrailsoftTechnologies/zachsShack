@@ -1,8 +1,5 @@
-@font-face {
-    font-family: 'Burner';
-    src: url('font/NMFBurner-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+body, html {
+  height: 100%;
 }
 
 @font-face {
