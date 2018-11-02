@@ -6,10 +6,17 @@
 }
 
 @font-face {
-    font-family: 'codygraff';
-    src: url('font/codygraff.ttf') format('truetype');
+    font-family: 'Porter';
+    src: url('font/portt2.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@font-face {
+    font-family: 'Nimbus';
+    src: url('font/NimbusRomNo9T_Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');

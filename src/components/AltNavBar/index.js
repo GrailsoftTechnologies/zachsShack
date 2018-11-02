@@ -8,10 +8,10 @@ class AltNavBar extends Component {
       <div className="AltNavBar">
 				<Container>
 					<Row>
-						<Col xs='3'>
+						<Col xs='5'>
 							<Button href={"https://postmates.com/merchant/zachs-shack-portland"} color="secondary">Order Here</Button>
 						</Col>
-						<Col xs='9' className="socialIcons">
+						<Col xs='7' className="socialIcons">
 							<a href="https://www.yelp.com/biz/zachs-shack-portland"><span className="footer-icon icon fa fa-yelp desktop-only"></span></a>
 							<a href="https://www.facebook.com/ZachsShackHotdogs/"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></a>
 							<a href="https://www.instagram.com/explore/locations/227503863/zachs-shack/"><span className="footer-icon icon fa fa-instagram desktop-only"></span></a>
