@@ -19,6 +19,12 @@
 	color: black;
 }
 
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+		height: 0px;  /* remove scrollbar space */
+    background: transparent;  /* make scrollbar invisible */
+}
+
 @media (max-width: 576){
 	.Router {
 		background-image: url('../../img/mobilebackground.jpg');

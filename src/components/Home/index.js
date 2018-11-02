@@ -10,10 +10,10 @@ class Home extends Component {
 			<Container className="Home">
 				<Row>
 					<Col>
-						<h2 style={{fontFamily: 'Porter'}}>Zach's Shack</h2>
-						<h3>Dogs with a Snap!</h3>
-						<h4>Open Noon-3am Everyday</h4>
-            <h4>4611 SE Hawthorne Blvd 97215</h4>
+						<h1 style={{fontFamily: 'Porter'}}>Zach's Shack</h1>
+						<h2>Dogs with a Snap!</h2>
+						<h3>Open Noon - 3 am Everyday</h3>
+            <h3>4611 SE Hawthorne Blvd 97215</h3>
 					</Col>
 				</Row>
         <hr></hr>
@@ -25,13 +25,13 @@ class Home extends Component {
         <hr></hr>
         <Row>
 					<Col>
-						<h3>Join us for...</h3>
-						<p>Local Craft Beers</p>
-            <p>Thursday Night Trivia at 8pm</p>
-            <p>Summer Patio Seating</p>
-            <p>Annual Hot Dog Eating Contest</p>
-            <p>Outdoor Ping Pong</p>
-            <p>Trail Blazers Games</p>
+						<h2>Join us for...</h2>
+						<h4>Local Craft Beers</h4>
+            <h4>Thursday Night Trivia at 8 pm</h4>
+            <h4>Summer Patio Seating</h4>
+            <h4>Annual Hot Dog Eating Contest</h4>
+            <h4>Outdoor Ping Pong</h4>
+            <h4>Trail Blazers Games</h4>
 					</Col>
 				</Row>
 			</Container>

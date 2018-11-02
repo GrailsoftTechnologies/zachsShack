@@ -9,9 +9,9 @@ render() {
     <Container className="MenuSection">
       <Row>
         <Col className="MenuHeader">
-          <h2>
+          <h1>
             Signature Dogs
-          </h2>
+          </h1>
           <hr className="my-2"></hr>
           <h4>
             <i>
@@ -314,7 +314,7 @@ render() {
         </Col>
       </Row>
     </Container>
-    <Container className="MenuSection">
+    <Container className="MenuSection" style={{marginBottom: "0px"}}>
       <Row>
         <Col className="MenuHeader">
           <h2>

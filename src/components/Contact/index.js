@@ -30,6 +30,18 @@ class Contact extends Component {
 						<GoogleMapFrame name="Zach's+Shack" location="Portland+OR"/>
 					</Col>
 				</Row>
+        <hr></hr>
+        <Row className="justify-content-center">
+          <Col xs='1'>
+						<a href="https://www.yelp.com/biz/zachs-shack-portland" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-yelp desktop-only"></span></a>
+					</Col>
+          <Col xs='1'>
+            <a href="https://www.facebook.com/ZachsShackHotdogs/" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></a>
+          </Col>
+          <Col xs='1'>
+            <a href="https://www.instagram.com/explore/locations/227503863/zachs-shack/" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-instagram desktop-only"></span></a>
+          </Col>
+				</Row>
 			</Container>
     );
   }

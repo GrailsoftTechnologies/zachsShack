@@ -4,52 +4,6 @@
 	background-color: rgba(255, 0, 0, 0.8);
 }
 
-.Home h1{
-	font-size: 8vw;
-}
-.Home h2{
-	font-size: 6vw;
-}
-.Home h3{
-	font-size: 4vw;
-}
-.Home p{
-	font-size: 2vw;
-}
 .Home img{
 	width: 100%;
-}
-
-.Home .display-3 {
-	font-family: 'Burner', Arial, sans-serif;
-}
-
-.Home .display-4 {
-	font-family: 'Burner', Arial, sans-serif;
-	font-size: 2.75rem;
-}
-
-.Home .display-5 {
-	font-family: 'Burner', Arial, sans-serif;
-}
-
-.Home .jumbotron{
-	background-color: rgba(175, 175, 120, 0.4);
-	color: #A65A4E;
-	text-shadow: 2px 2px black;
-}
-
-@media (max-width: 575.98px) {
-	.Home h1{
-		font-size: 12vw;
-	}
-	.Home h2{
-		font-size: 8vw;
-	}
-	.Home h3{
-		font-size: 6vw;
-	}
-	.Home p{
-		font-size: 4vw;
-	}
 }

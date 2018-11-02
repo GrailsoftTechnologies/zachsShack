@@ -1,12 +1,16 @@
 .Contact{
 	background-color: rgba(255, 0, 0, 0.8);
 	padding-top: 16px;
+	padding-bottom: 16px;
 	color: white;
-	padding-bottom: 160px;
 }
 
 .Contact h1{
 	font-size: 3rem;
+}
+
+.Contact .icon {
+	font-size: 3.25rem;
 }
 
 .mapBox{

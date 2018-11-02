@@ -9,14 +9,14 @@ render() {
 				<Row>
 					<Col>
 						<h1>Zach's Shack Hot Dogs...</h1>
-		        <h4>
+		        <h3>
 							...are 100% beef dogs with a natural casing.
               It's the casing and the steaming that gives the dog the "snap".
               You may choose to substitute a tofu dog or veggie sausage (will take 4 minutes longer to prepare) or a turkey dog (8 minutes) at no extra charge.
               We are open until 3:00 am every night.
               Thanks for stopping by!
-						</h4>
-						<h4>-Zach</h4>
+						</h3>
+						<h3>-Zach</h3>
 					</Col>
 				</Row>
 			</Container>
