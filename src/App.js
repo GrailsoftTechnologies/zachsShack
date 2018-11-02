@@ -4,13 +4,14 @@ import AltNavBar from './components/AltNavBar';
 import Footer from './components/Footer';
 import './App.css';
 import Background from './img/postmates.jpg'
+import MobileBackground from './img/mobilebackground.jpg'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <AltNavBar color="black" background="red" hovercolor="white" buttoncolor="warning"/>
-        <Router/>
+        <Router color="white" background="red" hovercolor="black" backgroundImage={Background} mobileBackgroundImage={MobileBackground}/>
         <Footer/>
       </div>
     );

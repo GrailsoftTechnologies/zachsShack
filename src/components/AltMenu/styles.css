@@ -1,20 +1,9 @@
 .AltMenu {
+	color: inherit;
+	background-color: inherit;
 	font-family: 'Nimbus';
 }
 
 .MenuSection {
-	background-color: rgba(255, 0, 0, 0.8);
-	padding-top: 16px;
 	margin-bottom: 16px;
-	color: white;
-}
-
-.MenuSection .container{
-	max-width: 500px;
-}
-
-@media (min-width: 992px){
-	.MenuSection{
-		max-width: 800px !important;
-	}
 }

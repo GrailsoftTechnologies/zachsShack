@@ -183,9 +183,9 @@ render() {
     <Container className="MenuSection">
       <Row>
         <Col className="MenuHeader">
-          <h2>
+          <h1>
             Build Your Own
-          </h2>
+          </h1>
         </Col>
       </Row>
       <hr className="my-2"></hr>
@@ -233,9 +233,9 @@ render() {
     <Container className="MenuSection">
       <Row>
         <Col className="MenuHeader">
-          <h2>
+          <h1>
             Fries
-          </h2>
+          </h1>
         </Col>
       </Row>
       <hr className="my-2"></hr>
@@ -278,9 +278,9 @@ render() {
     <Container className="MenuSection">
       <Row>
         <Col className="MenuHeader">
-          <h2>
+          <h1>
             Extras
-          </h2>
+          </h1>
         </Col>
       </Row>
       <hr className="my-2"></hr>
@@ -317,9 +317,9 @@ render() {
     <Container className="MenuSection" style={{marginBottom: "0px"}}>
       <Row>
         <Col className="MenuHeader">
-          <h2>
+          <h1>
             Drinks
-          </h2>
+          </h1>
         </Col>
       </Row>
       <hr className="my-2"></hr>
@@ -364,5 +364,4 @@ render() {
   );
  }
 }
-
 export default AltMenu;

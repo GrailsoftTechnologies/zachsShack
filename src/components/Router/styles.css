@@ -7,31 +7,15 @@
 	padding-top: 7.5vh;
 	padding-bottom: 7.5vh;
 	font-family: 'Nimbus';
-	color: white;
 }
 
-.Router a {
-	color: white;
-}
-
-.Router a:hover{
-	color: black;
+.Router .container {
+	padding-top: 16px;
+	padding-bottom: 16px;
 }
 
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
 		height: 0px;  /* remove scrollbar space */
     background: transparent;  /* make scrollbar invisible */
-}
-
-@media (max-width: 576px){
-	.Router {
-		background-image: url('../../img/mobilebackground.jpg');
-	}
-}
-
-@media (min-width: 577px){
-	.Router {
-		background-image: url('../../img/postmates.jpg');
-	}
 }

@@ -10,8 +10,8 @@ class Contact extends Component {
 				<Row>
 					<Col>
             <a href="tel:+15032334616">
-              <h1>CALL IN ORDERS</h1>
-              <h1>(503)-233-4616</h1>
+              <h3>CALL IN ORDERS</h3>
+              <h3>(503)-233-4616</h3>
             </a>
 					</Col>
 				</Row>
@@ -19,8 +19,8 @@ class Contact extends Component {
         <Row>
 					<Col>
             <a href="mailto:contact@zachsshack.com">
-              <h1>FOR PARTIES OR EVENTS</h1>
-              <h1>CONTACT@ZACHSSHACK.COM</h1>
+              <h3>FOR PARTIES OR EVENTS</h3>
+              <h3>CONTACT@ZACHSSHACK.COM</h3>
             </a>
 					</Col>
 				</Row>

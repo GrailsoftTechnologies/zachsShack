@@ -16,6 +16,7 @@ render() {
               We are open until 3:00 am every night.
               Thanks for stopping by!
 						</h3>
+            <br/>
 						<h3>-Zach</h3>
 					</Col>
 				</Row>

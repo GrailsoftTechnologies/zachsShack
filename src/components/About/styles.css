@@ -1,6 +1,5 @@
 .About{
 	min-height: 60vh;
-	color: white;
-	background-color: rgba(255, 0, 0, 0.8);
-	padding-top: 5vh;
+	color: inherit;
+	background-color: inherit;
 }
