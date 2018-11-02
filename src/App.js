@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <AltNavBar/>
+        <AltNavBar color="black" background="red" hovercolor="white" buttoncolor="warning"/>
         <Router/>
         <Footer/>
       </div>

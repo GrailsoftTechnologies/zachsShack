@@ -5,37 +5,50 @@ import './styles.css';
 class AltNavBar extends Component {
   render() {
     return (
-			<Container className="AltNavBar">
+			<Container
+        className="AltNavBar"
+        style={{backgroundColor: this.props.background, color: this.props.text}}>
+        <style>
+          {`
+            .AltNavBar a:hover {
+                color: ` + this.props.hovercolor + `!important;
+            }
+          `}
+        </style>
 				<Row className="justify-content-between">
 					<Col xs='3'>
-						<Button href={"https://postmates.com/merchant/zachs-shack-portland"} target="_blank" rel="noreferrer noopener" color="warning">Order Here</Button>
+						<Button href={"https://postmates.com/merchant/zachs-shack-portland"}
+              target="_blank"
+              rel="noreferrer noopener"
+              color={this.props.buttoncolor}>Order Here</Button>
 					</Col>
           <Col xs='3' className="socialIcons">
-						<a href="https://www.yelp.com/biz/zachs-shack-portland" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-yelp desktop-only"></span></a>
-						<a href="https://www.facebook.com/ZachsShackHotdogs/" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></a>
-						<a href="https://www.instagram.com/explore/locations/227503863/zachs-shack/" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-instagram desktop-only"></span></a>
+						<a href="https://www.yelp.com/biz/zachs-shack-portland"
+              target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-yelp desktop-only"></span></a>
+						<a href="https://www.facebook.com/ZachsShackHotdogs/"
+              target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></a>
+						<a href="https://www.instagram.com/explore/locations/227503863/zachs-shack/"
+              target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-instagram desktop-only"></span></a>
 					</Col>
 				</Row>
 				<Row>
 					<Col>
-						<Container>
-							<Row>
-								<Col>
-									<a href="/"><h1>Zach's Shack</h1></a>
-								</Col>
-							</Row>
-						</Container>
+						<a href="/"><h1>Zach's Shack</h1></a>
 					</Col>
 				</Row>
-				<Row className="justify-content-center">
-					<Col xs="3">
+				<Row className="d-flex justify-content-center">
+          <Col className="flex-grow-1">
+					</Col>
+					<Col>
 						<a href="/menu"><h4>Menu</h4></a>
 					</Col>
-					<Col xs="3">
+					<Col>
 						<a href="/about"><h4>About</h4></a>
 					</Col>
-					<Col xs="3">
+					<Col>
 						<a href="/contact"><h4>Contact</h4></a>
+					</Col>
+          <Col className="flex-grow-1">
 					</Col>
 				</Row>
 			</Container>
@@ -44,7 +57,10 @@ class AltNavBar extends Component {
 }
 
 AltNavBar.defaultProps = {
-  className: "",
+  text: 'black',
+  background: 'white',
+  hovercolor: 'grey',
+  buttoncolor: 'warning'
 }
 
 export default AltNavBar;

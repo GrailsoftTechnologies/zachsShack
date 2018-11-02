@@ -1,16 +1,13 @@
 .AltNavBar {
-	background-color: red;
-	max-width: 100%!important;
+	max-width: 100%;
 	font-family: 'Porter';
-	color: black!important;
 }
 
 .AltNavBar a {
-	color: black;
+	color: inherit;
 }
 
 .AltNavBar a:hover {
-    color: white;
 		text-decoration: none;
 }
 
@@ -21,7 +18,6 @@
 .AltNavBar .btn {
 	font-size: 1.5rem;
 }
-
 
 @media (max-width: 575px) {
   .socialIcons {

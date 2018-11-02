@@ -1,7 +1,6 @@
 .Router{
 	min-height: 75vh;
 	background-color: #AFAF78;
-	background-image: url('../../img/postmates.jpg');
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -25,8 +24,14 @@
     background: transparent;  /* make scrollbar invisible */
 }
 
-@media (max-width: 576){
+@media (max-width: 576px){
 	.Router {
 		background-image: url('../../img/mobilebackground.jpg');
+	}
+}
+
+@media (min-width: 577px){
+	.Router {
+		background-image: url('../../img/postmates.jpg');
 	}
 }
