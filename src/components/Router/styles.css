@@ -5,8 +5,10 @@
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-	padding-top: 48px;
+	padding-top: 7.5vh;
+	padding-bottom: 7.5vh;
 	font-family: 'Nimbus';
+	color: white;
 }
 
 .Router a {
