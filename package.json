@@ -6,6 +6,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.7.2",
     "bootstrap": "^4.1.2",
+    "grailsoft-modules": "https://github.com/dcuthell/grailsoft-modules",
     "jquery": "^3.3.1",
     "popper": "^1.0.1",
     "react": "^16.4.1",

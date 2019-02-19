@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import { Footer } from 'grailsoft-modules';
 import Router from './components/Router/index.js';
 import AltNavBar from './components/AltNavBar';
-import Footer from './components/Footer';
 import './App.css';
 import Background from './img/background.jpg'
 import MobileBackground from './img/mobilebackground.jpg'
