@@ -16,9 +16,9 @@ class Footer extends Component {
         </style>
         <p>
           Site and design © 2018 Grailsoft Technical Solutions
-          <a href='https://www.linkedin.com/company/grailsoft-technologies-llc/' target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-linkedin-square"></span></a>
-          <a href='https://github.com/GrailsoftTechnologies' target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-github-square"></span></a>
-          <a href='https://twitter.com/GrailsoftTech' target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-twitter-square"></span></a>
+          <a href='https://www.linkedin.com/company/grailsoft-technologies-llc/' target="_blank" rel="noreferrer noopener"><i className="fab fa-linkedin" /></a>
+          <a href='https://github.com/GrailsoftTechnologies' target="_blank" rel="noreferrer noopener"><i className="fab fa-github" /></a>
+          <a href='https://twitter.com/GrailsoftTech' target="_blank" rel="noreferrer noopener"><i className="fab fa-twitter" /></a>
         </p>
       </div>
     );

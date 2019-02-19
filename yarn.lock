@@ -22,6 +22,11 @@
   dependencies:
     utilise "^2.3.5"
 
+"@fortawesome/fontawesome-free@^5.7.2":
+  version "5.7.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.7.2.tgz#1498c3eb78ee7c78c5488418707de90aaf58d5d7"
+  integrity sha512-Ha4HshKdCVKgu4TVCtG8XyPPYdzTzNW4/fvPnn+LT7AosRABryhlRv4cc4+o84dgpvVJN9reN7jo/c+nYujFug==
+
 "@types/node@^8.0.19":
   version "8.10.21"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.21.tgz#12b3f2359b27aa05a45d886c8ba1eb8d1a77e285"
@@ -3764,11 +3769,6 @@ follow-redirects@^1.0.0:
   integrity sha512-v9GI1hpaqq1ZZR6pBD1+kI7O24PhDvNGNodjS3MdcEqyrahCp8zbtpv+2B/krUnSmUH80lbAS7MrdeK5IylgKg==
   dependencies:
     debug "^3.1.0"
-
-font-awesome@^4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
-  integrity sha1-j6jPBBGhoxr9B7BtKQK7n8gVoTM=
 
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"

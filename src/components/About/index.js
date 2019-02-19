@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Jumbotron, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import './styles.css';
 
 class About extends Component {

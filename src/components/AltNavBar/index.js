@@ -24,11 +24,11 @@ class AltNavBar extends Component {
 					</Col>
           <Col xs='3' className="socialIcons">
 						<a href="https://www.yelp.com/biz/zachs-shack-portland"
-              target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-yelp desktop-only"></span></a>
+              target="_blank" rel="noreferrer noopener"><i className="fab fa-yelp" /></a>
 						<a href="https://www.facebook.com/ZachsShackHotdogs/"
-              target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></a>
+              target="_blank" rel="noreferrer noopener"><i className="fab fa-facebook" /></a>
 						<a href="https://www.instagram.com/explore/locations/227503863/zachs-shack/"
-              target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-instagram desktop-only"></span></a>
+              target="_blank" rel="noreferrer noopener"><i className="fab fa-instagram" /></a>
 					</Col>
 				</Row>
 				<Row>
