@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import API from '../../api.js'; // API KEY REQUIRED!
 import "./styles.css";
 
 class GoogleMapFrame extends Component {
@@ -18,7 +17,7 @@ class GoogleMapFrame extends Component {
         width= {this.state.width}
         frameBorder="0"
         styles="margin:auto"
-        src={"https://www.google.com/maps/embed/v1/place?key=" + API.GOOGLEMAPS + "&q=" + this.props.name + "," + this.props.location + "&zoom=" + this.props.zoom}
+        src={"https://www.google.com/maps/embed/v1/place?key=" + process.env.REACT_APP_GOOGLE_MAPS_API + "&q=" + this.props.name + "," + this.props.location + "&zoom=" + this.props.zoom}
         allowFullScreen>
       </iframe>
     );

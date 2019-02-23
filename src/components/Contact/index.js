@@ -10,7 +10,7 @@ class Contact extends Component {
 				<Row>
 					<Col>
             <a href="tel:+15032334616">
-              <h3>CALL IN ORDERS</h3>
+              <h3>FOR CALL IN ORDERS</h3>
               <h3>(503)-233-4616</h3>
             </a>
 					</Col>
@@ -33,13 +33,13 @@ class Contact extends Component {
         <hr></hr>
         <Row className="justify-content-center">
           <Col xs='1'>
-						<a href="https://www.yelp.com/biz/zachs-shack-portland" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-yelp desktop-only"></span></a>
+						<a href="https://www.yelp.com/biz/zachs-shack-portland" target="_blank" rel="noreferrer noopener"><i className="fab fa-yelp icon" /></a>
 					</Col>
           <Col xs='1'>
-            <a href="https://www.facebook.com/ZachsShackHotdogs/" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></a>
+            <a href="https://www.facebook.com/ZachsShackHotdogs/" target="_blank" rel="noreferrer noopener"><i className="fab fa-facebook icon" /></a>
           </Col>
           <Col xs='1'>
-            <a href="https://www.instagram.com/explore/locations/227503863/zachs-shack/" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-instagram desktop-only"></span></a>
+            <a href="https://www.instagram.com/explore/locations/227503863/zachs-shack/" target="_blank" rel="noreferrer noopener"><i className="fab fa-instagram icon" /></a>
           </Col>
 				</Row>
 			</Container>
