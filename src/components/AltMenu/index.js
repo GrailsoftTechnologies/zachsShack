@@ -1,11 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import './styles.css';
 
 export default function AltMenu (props) {
   return(
    <Container className="AltMenu">
-     <Container className="MenuSection">
+     <Container className="MenuSection" style={{marginBottom: "16px"}}>
        <Row>
          <Col className="MenuHeader">
            <h1>
@@ -178,8 +177,8 @@ export default function AltMenu (props) {
  					</h4>
  				</Col>
  			</Row>
- 		</Container>
-     <Container className="MenuSection">
+ 		 </Container>
+     <Container className="MenuSection" style={{marginBottom: "16px"}}>
        <Row>
          <Col className="MenuHeader">
            <h1>
@@ -229,7 +228,7 @@ export default function AltMenu (props) {
          </Col>
        </Row>
      </Container>
-     <Container className="MenuSection">
+     <Container className="MenuSection" style={{marginBottom: "16px"}}>
        <Row>
          <Col className="MenuHeader">
            <h1>
@@ -274,7 +273,7 @@ export default function AltMenu (props) {
          </Col>
        </Row>
      </Container>
-     <Container className="MenuSection">
+     <Container className="MenuSection" style={{marginBottom: "16px"}}>
        <Row>
          <Col className="MenuHeader">
            <h1>

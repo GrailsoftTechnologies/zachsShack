@@ -12,7 +12,13 @@
 .Router .container {
 	padding-top: 16px;
 	padding-bottom: 16px;
+	min-height: 60vh;
+	color: inherit;
+	background-color: inherit;
+}
 
+.Router .icon {
+	font-size: 3.25rem;
 }
 
 ::-webkit-scrollbar {

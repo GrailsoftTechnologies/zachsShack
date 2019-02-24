@@ -1,6 +1,5 @@
 import React from "react"
 import { Container, Row, Col } from 'reactstrap'
-import "./styles.css"
 import GoogleMapFrame from '../GoogleMapFrame'
 
 export default function Contact(props) {

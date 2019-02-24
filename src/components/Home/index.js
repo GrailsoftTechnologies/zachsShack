@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
-import './styles.css'
 import happyHour from '../../img/happyhour.jpg'
 
 export default function Home(props) {
@@ -17,7 +16,7 @@ export default function Home(props) {
       <hr></hr>
       <Row>
         <Col>
-          <img src={happyHour} alt="happy hour"/>
+          <img src={happyHour} alt="happy hour" style={{width: '100%'}}/>
         </Col>
       </Row>
       <hr></hr>
