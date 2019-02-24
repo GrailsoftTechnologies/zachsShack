@@ -4080,7 +4080,7 @@ graceful-fs@4.1.11, graceful-fs@^4.1.0, graceful-fs@^4.1.11, graceful-fs@^4.1.2,
 
 "grailsoft-modules@https://github.com/dcuthell/grailsoft-modules":
   version "0.0.1"
-  resolved "https://github.com/dcuthell/grailsoft-modules#e8997c6d3ec741757a56722f4090fdf81829499c"
+  resolved "https://github.com/dcuthell/grailsoft-modules#de76397da2674c55dd517e1cf0912ebc4e2f6c20"
   dependencies:
     "@fortawesome/fontawesome-free" "^5.7.2"
     bootstrap "^4.2.1"

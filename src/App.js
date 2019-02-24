@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
         <AltNavBar color="black" background="red" hovercolor="white" buttoncolor="warning"/>
         <Router color="white" background="red" hovercolor="black" backgroundImage={Background} mobileBackgroundImage={MobileBackground}/>
-        <Footer color="white" background="black" hovercolor="grey"/>
+        <Footer text="black" background="red" hovercolor="white"/>
       </div>
     );
   }
