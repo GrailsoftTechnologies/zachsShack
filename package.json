@@ -6,8 +6,11 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.7.2",
     "bootstrap": "^4.1.2",
+    "cached-path-relative": "1.0.2",
+    "cryptiles": "4.1.2",
     "grailsoft-modules": "https://github.com/dcuthell/grailsoft-modules",
     "jquery": "^3.3.1",
+    "merge": "1.2.1",
     "popper": "^1.0.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -15,7 +18,10 @@
     "react-scripts": "^1.1.5",
     "react-strap": "^0.0.1",
     "reactstrap": "^6.3.0",
-    "rgba-convert": "^0.3.0"
+    "rgba-convert": "^0.3.0",
+    "url-parse": "1.4.3",
+    "webpack": "4.0",
+    "webpack-dev-server": "3.1.11"
   },
   "scripts": {
     "predeploy": "npm run build",
