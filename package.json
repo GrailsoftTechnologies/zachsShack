@@ -9,7 +9,6 @@
     "cached-path-relative": "1.0.2",
     "cryptiles": "4.1.2",
     "extend": "3.0.2",
-    "grailsoft-modules": "https://github.com/dcuthell/grailsoft-modules",
     "jquery": "^3.3.1",
     "merge": "1.2.1",
     "popper": "^1.0.1",

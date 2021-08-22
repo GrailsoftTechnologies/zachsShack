@@ -1,9 +1,13 @@
 .Footer {
-  height: 8vh;
   font-size: 1.75vh;
   font-weight: lighter;
+  height: 6vh;
+  text-align: center;
   width: 100%;
-  padding-top: 2vh;
+}
+
+.Footer p {
+  padding-top: 1vh;
 }
 
 .Footer a {

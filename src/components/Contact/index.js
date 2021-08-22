@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from 'reactstrap'
-import { GoogleMapFrame } from 'grailsoft-modules'
+import GoogleMapFrame from '../GoogleMapFrame'
 
 export default function Contact(props) {
   return (

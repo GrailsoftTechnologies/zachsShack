@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Footer } from 'grailsoft-modules';
+import Footer  from './components/Footer';
 import Router from './components/Router/index.js';
 import AltNavBar from './components/AltNavBar';
 import './App.css';
