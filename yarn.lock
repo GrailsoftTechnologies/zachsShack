@@ -1430,7 +1430,7 @@ boom@7.x.x:
   dependencies:
     hoek "6.x.x"
 
-bootstrap@^4.1.2, bootstrap@^4.2.1:
+bootstrap@^4.1.2:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
   integrity sha512-rXqOmH1VilAt2DyPzluTi2blhk17bO7ef+zLLPlWvG494pDxcM234pJ8wTc/6R40UWizAIIMgxjvxZg5kmsbag==
@@ -4335,15 +4335,6 @@ graceful-fs@4.1.11, graceful-fs@^4.1.0, graceful-fs@^4.1.11, graceful-fs@^4.1.2,
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
   integrity sha1-Dovf5NHduIVNZOBOp8AOKgJuVlg=
-
-"grailsoft-modules@https://github.com/dcuthell/grailsoft-modules":
-  version "0.0.1"
-  resolved "https://github.com/dcuthell/grailsoft-modules#de76397da2674c55dd517e1cf0912ebc4e2f6c20"
-  dependencies:
-    "@fortawesome/fontawesome-free" "^5.7.2"
-    bootstrap "^4.2.1"
-    reactstrap "^6.5.0"
-    rgba-convert "^0.3.0"
 
 growl@1.10.5:
   version "1.10.5"
@@ -8021,7 +8012,7 @@ react@^16.4.1:
     prop-types "^15.6.2"
     scheduler "^0.13.2"
 
-reactstrap@^6.3.0, reactstrap@^6.5.0:
+reactstrap@^6.3.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/reactstrap/-/reactstrap-6.5.0.tgz#ba655e32646e2621829f61faa033e607ec6624e5"
   integrity sha512-dWb3fB/wBAiQloteKlf+j9Nl2VLe6BMZgTEt6hpeTt0t9TwtkeU+2v2NBYONZaF4FZATfMiIKozhWpc2HmLW1g==
@@ -10446,9 +10437,9 @@ xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:
   integrity sha1-pcbVMr5lbiPbgg77lDofBJmNY68=
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 "y18n@^3.2.1 || ^4.0.0", y18n@^4.0.0:
   version "4.0.0"
