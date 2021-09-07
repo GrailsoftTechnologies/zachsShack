@@ -8,7 +8,8 @@ export default function Home(props) {
         <Col>
           
           <h2>Dogs with a Snap!</h2>
-          <h3>Open Noon - Late Everyday</h3>
+          <h3>Open Noon - 11:45pm Sunday - Thursday</h3>
+          <h3>Open Noon - 1:45am Friday - Saturday</h3>
           <h3>4611 SE Hawthorne Blvd 97215</h3>
           <h3>(503) 233-4616</h3>
         </Col>
