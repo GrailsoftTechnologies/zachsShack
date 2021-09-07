@@ -10,9 +10,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <AltNavBar color="black" background="red" hovercolor="white" buttoncolor="warning"/>
+        <AltNavBar text="white" background="red" hovercolor="black" buttoncolor="warning"/>
         <Router color="white" background="red" hovercolor="black" backgroundImage={Background} mobileBackgroundImage={MobileBackground}/>
-        <Footer text="black" background="red" hovercolor="white"/>
+        <Footer text="white" background="red" hovercolor="black"/>
       </div>
     );
   }

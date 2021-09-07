@@ -6,11 +6,11 @@ export default function Home(props) {
     <Container className="Home">
       <Row>
         <Col>
-          <h1 style={{fontFamily: 'Porter'}}>Zach's Shack</h1>
+          
           <h2>Dogs with a Snap!</h2>
           <h3>Open Noon - Late Everyday</h3>
           <h3>4611 SE Hawthorne Blvd 97215</h3>
-          <h3>(503)-233-4616</h3>
+          <h3>(503) 233-4616</h3>
         </Col>
       </Row>
       <hr></hr>

@@ -23,12 +23,16 @@ class AltNavBar extends Component {
               color={this.props.buttoncolor}>Order Here</Button>
 					</Col>
           <Col xs='3' className="socialIcons">
+						
 						<a href="https://www.yelp.com/biz/zachs-shack-portland"
               target="_blank" rel="noreferrer noopener"><i className="fab fa-yelp" /></a>
+			  		
 						<a href="https://www.facebook.com/ZachsShackHotdogs/"
               target="_blank" rel="noreferrer noopener"><i className="fab fa-facebook" /></a>
+
 						<a href="https://www.instagram.com/explore/locations/227503863/zachs-shack/"
               target="_blank" rel="noreferrer noopener"><i className="fab fa-instagram" /></a>
+
 					</Col>
 				</Row>
 				<Row>

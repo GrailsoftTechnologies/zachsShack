@@ -19,6 +19,14 @@
 	font-size: 1.5rem;
 }
 
+a {
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1px;
+    margin: 2px;
+}
+
 @media (max-width: 575px) {
   .socialIcons {
       display: none;
