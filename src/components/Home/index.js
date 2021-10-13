@@ -11,7 +11,7 @@ export default function Home(props) {
           <h3>Open Noon - 11:45pm Sunday - Thursday</h3>
           <h3>Open Noon - 1:45am Friday - Saturday</h3>
           <h3>4611 SE Hawthorne Blvd 97215</h3>
-          <h3>(503) 233-4616</h3>
+          <a href="tel:+15032334616"><h3>(503) 233-4616</h3></a>
         </Col>
       </Row>
       <hr></hr>
