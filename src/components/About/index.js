@@ -11,7 +11,7 @@ export default function About (props) {
 						...are 100% beef dogs with a natural casing.
             It's the casing and the steaming that gives the dog the "snap".
             You may choose to substitute a tofu dog or veggie sausage (will take 4 minutes longer to prepare) at no extra charge.
-            We are open until late every night.
+            We are open until 2am every night.
             Thanks for stopping by!
 					</h3>
           <br/>

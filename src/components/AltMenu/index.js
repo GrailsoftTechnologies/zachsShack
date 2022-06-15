@@ -29,7 +29,7 @@ export default function AltMenu (props) {
            </h4>
            <h4>
              <i>
-               Red Hot Spicy Sausage, Cheese Filled Sausage, Linguisa Pork Sausage, gluten free bun or Field Roast Veggie Sausage
+               Red Hot Spicy Sausage, Cheese Filled Sausage, Linguisa Pork Sausage, Field Roast Veggie Sausage or Gluten Free Buns
              </i>
            </h4>
          </Col>
@@ -38,10 +38,10 @@ export default function AltMenu (props) {
  			<Row>
  				<Col className="dogType">
  					<h2>
- 						Chicago Dog $6.00
+ 						Chicago Dog $7.00
  					</h2>
  					<h4>
- 						Yellow Mustard, Onion, Neon Relish, Sport Peppers, Pickle Spear, Tomato, Celery Salt, Poppy Seed Bun
+ 						Yellow Mustard, Onion, Neon Green Relish, Sport Peppers, Pickle Spear, Tomato, Celery Salt, Poppy Seed Bun
  					</h4>
  				</Col>
  			</Row>
@@ -49,7 +49,7 @@ export default function AltMenu (props) {
  			<Row>
  				<Col className="dogType">
  					<h2>
- 						New York Dog $6.25
+ 						New York Dog $7.00
  					</h2>
  					<h4>
  						Cheddar Cheese, Yellow Mustard, Onion, Chili
@@ -60,7 +60,7 @@ export default function AltMenu (props) {
  			<Row>
  				<Col className="dogType">
  					<h2>
- 						Syd Dog $5.00
+ 						Syd Dog $5.50
  					</h2>
  					<h4>
  						Ketchup, Mayo, Green Relish, Pickle Slices
@@ -71,7 +71,7 @@ export default function AltMenu (props) {
  			<Row>
  				<Col className="dogType">
  					<h2>
- 						Sgt. Peppers $6.25
+ 						Sgt. Peppers $7.00
  					</h2>
  					<h4>
  						Brown Mustard, Jalape&#241;os, Peperoncinis, Sport Peppers
@@ -82,7 +82,7 @@ export default function AltMenu (props) {
  			<Row>
  				<Col className="dogType">
  					<h2>
- 						Los Lobos Dog $6.75
+ 						Los Lobos Dog $8.50
  					</h2>
  					<h4>
  						Cheddar Cheese, Salsa, Sour Cream, Black Olives, Jalape&#241;os
@@ -93,7 +93,7 @@ export default function AltMenu (props) {
  			<Row>
  				<Col className="dogType">
  					<h2>
- 						Scorpions Dog $5.75
+ 						Scorpions Dog $7.00
  					</h2>
  					<h4>
  						Brown Mustard, Sauerkraut
@@ -104,7 +104,7 @@ export default function AltMenu (props) {
  			<Row>
  				<Col className="dogType">
  					<h2>
- 						Dylan Dog $6.00
+ 						Dylan Dog $7.00
  					</h2>
  					<h4>
  						Cream Cheese, Onion, Tomato
@@ -115,7 +115,7 @@ export default function AltMenu (props) {
  			<Row>
  				<Col className="dogType">
  					<h2>
- 						Grateful Dog $5.75
+ 						Grateful Dog $7.00
  					</h2>
  					<h4>
  						Onion, Cucumber, Tomato, Celery Salt
@@ -126,10 +126,10 @@ export default function AltMenu (props) {
 			<Row>
  				<Col className="dogType">
  					<h2>
- 						A capella Dog $4.50
+ 						A Capella Dog $5.50
  					</h2>
  					<h4>
- 						build your own
+ 						Build your own
  					</h4>
  				</Col>
  			</Row>
@@ -137,7 +137,7 @@ export default function AltMenu (props) {
  			<Row>
  				<Col className="dogType">
  					<h2>
- 						Zach's Favorite $5.75
+ 						Zach's Favorite $7.00
  					</h2>
  					<h4>
  						Brown Mustard, Red Relish, Sport Peppers, Onion, Pickle Slices, Celery Salt
@@ -148,7 +148,7 @@ export default function AltMenu (props) {
 			 <Row>
  				<Col className="dogType">
  					<h2>
- 						Feat Dog $5.75
+ 						Feat Dog $7.00
  					</h2>
  					<h4>
  						Brown Mustard, Cole Slaw
@@ -159,7 +159,7 @@ export default function AltMenu (props) {
 			<Row>
  				<Col className="dogType">
  					<h2>
- 						John Popper $6.25
+ 						John Popper $7.00
  					</h2>
  					<h4>
  						Cream Cheese, Onions, Green Relish, Jalape&#241;os, Sweet Thai Chili Sauce
@@ -170,7 +170,7 @@ export default function AltMenu (props) {
 			<Row>
  				<Col className="dogType">
  					<h2>
- 						James Brown $7.00
+ 						James Brown $8.50
  					</h2>
  					<h4>
  						Cream Cheese, Jalape&#241;os, Chili, Sour Cream
@@ -181,10 +181,10 @@ export default function AltMenu (props) {
  			<Row>
  				<Col className="dogType">
  					<h2>
- 						Wings Dog $6.50
+ 						Wings Dog $8.50
  					</h2>
  					<h4>
- 						Carrots, Blue Cheese, Sour Cream, Aardvark, Celery Salt
+ 						Carrots, Blue Cheese, Sour Cream, Sriracha, Celery Salt
  					</h4>
  				</Col>
  			</Row>
@@ -251,35 +251,35 @@ export default function AltMenu (props) {
        <Row>
          <Col>
            <h3>
-             Small $3.50
+             Regular $4.50
            </h3>
          </Col>
        </Row>
        <Row>
          <Col>
            <h3>
-             Regular $5.50
+             Large $6.50
            </h3>
          </Col>
        </Row>
        <Row>
          <Col>
            <h3>
-             Cheddar $7.00
+             Cheddar Cheese $8.00
            </h3>
          </Col>
        </Row>
        <Row>
          <Col>
            <h3>
-             Cheddar and Jalape&#241;o $8.00
+             Jalape&#241;o Cheese $9.00
            </h3>
          </Col>
        </Row>
        <Row>
          <Col>
            <h3>
-             Chili and Cheddar $8.50
+             Chili Cheese $10.00
            </h3>
          </Col>
        </Row>
@@ -296,10 +296,10 @@ export default function AltMenu (props) {
        <Row>
  				<Col>
  					<h2>
- 						Mozzarella Sticks (5) $7.75
+ 						Mozzarella Sticks (5) $8.50
  					</h2>
  					<h4>
- 						served with marinara sauce
+ 						served with Marinara sauce
  					</h4>
  				</Col>
  			</Row>
@@ -307,10 +307,10 @@ export default function AltMenu (props) {
        <Row>
  				<Col>
  					<h2>
- 						Jalape&#241;o Poppers (5) $7.75
+ 						Jalape&#241;o Poppers (5) $8.50
  					</h2>
  					<h4>
- 						stuffed with cream cheese and served with sweet chili Thai sauce
+ 						Stuffed with Cream Cheese and served with Sweet Chili Thai Sauce
  					</h4>
  				</Col>
  			</Row>
@@ -335,7 +335,7 @@ export default function AltMenu (props) {
        <Row>
  				<Col>
  					<h2>
- 						Soda (free refills) $2.50
+ 						Soda (free refills) $2.75
  					</h2>
  					<h4>
  						Coke
@@ -356,7 +356,7 @@ export default function AltMenu (props) {
  						Ice Tea
  					</h4>
            <h4>
- 						Lemonade $3 (no refill)
+ 						Lemonade $3.50 (no refill)
  					</h4>
  				</Col>
  			</Row>
